@@ -7,7 +7,7 @@ const ManageData = () => {
         <div>
             <p>Valor: {number}</p>
             <button onClick={ () => (setNumber(25))}>Mudar Valor</button>
-        </div> 
+        </div>
     )
 }
 
