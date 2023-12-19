@@ -1,0 +1,11 @@
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    list-style: none;
+}
+  div{
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 20px;
+}
