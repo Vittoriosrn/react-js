@@ -1,0 +1,25 @@
+html, body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(180deg, #0FC2C0 0%, #023535 100%);
+    color: #fff;
+}
+
+button{
+    width: 300px;
+    padding: 18px;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #023535;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #d5ebeb;
+}

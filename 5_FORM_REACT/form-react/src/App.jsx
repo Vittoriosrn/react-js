@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import MyForm from './assets/components/MyForm'
+import MyForm from './components/MyForm'
 import './App.css'
 
 function App() {
   return (
     <>
       {/* Criação de form */}
-      <MyForm />
+      <MyForm user={{name: "Josias", email: "josias@gmail.com"}}/>
     </>
   )
 }

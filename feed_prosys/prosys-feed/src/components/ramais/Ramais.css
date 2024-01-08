@@ -1,0 +1,44 @@
+.ramaisContainer{
+    background-color: #242526;
+    width: 329px;
+    height: 305px;
+    border-radius: 20px;
+    margin-top: 32px;
+}
+.ramaisTitle{
+    color: #19C692;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 24px;
+}
+ul{
+    list-style: none;
+    font-size: 16px;
+    margin: 8px 0px 0px 25px;
+}
+.ramalNumber{
+    font-weight: 700;
+    margin-right: 30px;
+}
+li{
+    margin-bottom: 11px;
+}
+.phoneIcon{
+    margin-right: 15px;
+}
+.ramaisScroll{
+    max-height: 187px;
+    overflow-y: scroll;
+    margin-right: 12px;
+    
+}
+.ramaisScroll::-webkit-scrollbar {
+    width: 8px;
+    height: 100px;
+    background-color: #CCCCCC;
+    border-radius: 20px;
+  }
+.ramaisScroll::-webkit-scrollbar-thumb {
+    background-color: #19C692;
+    border-radius: 20px;
+}

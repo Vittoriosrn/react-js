@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 4em;
+    margin-top: 100px;
+}
+.subTitle{
+    font-weight: 600;
+    margin-bottom: 40px;
+}

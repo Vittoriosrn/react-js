@@ -1,0 +1,48 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wordContainer{
+    margin: 50px 0px 50px 0px;
+    padding: 20px;
+    border: 5px solid #023535;
+    display: flex;
+    justify-content: center;
+}
+.letter, .blankSquare{
+    color: #000;
+    line-height: 2.1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    border: 2px solid #000;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}
+input{
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+}
+.wrongLetterContainer{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.wrongLetterContainer span{
+    font-size: 2em;
+    text-transform: uppercase;
+}
+p{
+    font-weight: 700;
+}
+.points{
+    margin: 100px 0px 20px 0px;
+}

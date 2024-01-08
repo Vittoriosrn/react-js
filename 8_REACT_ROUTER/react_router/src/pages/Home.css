@@ -1,0 +1,16 @@
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products > li{
+    color: #252525;
+    list-style: none;
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 0 10px;
+}

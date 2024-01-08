@@ -1,0 +1,61 @@
+.postFeed{
+    width: 590px;
+    height: 788px;
+    border-radius: 20px;
+    background-color: #242526;
+    padding-top: 24px;
+    margin-top: 32px;
+}
+.profileInfo{
+    display: flex;
+    margin: 0px 24px 0px 24px;
+    gap: 18px;
+    font-weight: 400;
+}
+.postTime{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #85878B;
+}
+.userNamePost{
+    margin-top: 5px;
+    color: #19C692;
+    font-weight: 700;
+}
+.textPost{
+    margin: 1px 24px 0px 84px;
+}
+.profilePicturePost{
+    width: 43px;
+}
+.comnentContainer{
+    display: flex;
+    margin: 0px 24px 0px 24px;
+}
+.comnentContainer img{
+    width: 43px;
+    height: 43px;
+    margin-right: 13px;
+}
+input{
+    width: 473px;
+    height: 43px;
+    background-color: #3A3B3C;
+    border-radius: 20px;
+    border: 0;
+    padding: 0px 19px 0px 19px;
+}
+.imgPost{
+    margin: 32px 0px 14px 0px;
+}
+.reactions{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 18px 24px;
+}
+.reactions svg{
+    margin: 0px 0px 7px 8px;
+}
+.reactions .reactCiente{
+    font-size: 12px;
+}
