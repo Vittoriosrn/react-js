@@ -1,0 +1,17 @@
+.EditPost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.EditPost h1{
+    margin-top: 64px;
+}
+
+.EditPost button{
+    margin-bottom: 64px;
+}
+.previewImage{
+    width: 30%;
+    border-radius: 20px;
+}

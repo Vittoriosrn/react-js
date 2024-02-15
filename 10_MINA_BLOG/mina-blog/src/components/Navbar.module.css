@@ -1,0 +1,72 @@
+.nav{
+    background-color: #242526;
+    box-shadow: 0px 0px 20px #0000002d;
+
+    max-width: 100vw;
+    height: 124px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-weight: 600;
+    padding: 0px 40px 0px 40px;
+    font-size: 15px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+
+    list-style: none;
+
+    margin-top: 44px;
+}
+.authenticationNav{
+    display: flex;
+    gap: 25px;
+}
+.authenticationNav > .link:hover {
+    text-decoration: underline;
+}
+.logo{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.blogLogo{
+    color: #FF6B00;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.link:hover .activeBar{
+    transition: 0.5s;
+    background-color: #FF6B00;
+}
+.active .activeBar{
+    background-color: #FF6B00;
+}
+.active svg path {
+    fill: #FF6B00;
+
+}
+.link:hover svg path{
+    transition: 0.5s;
+    fill: #FF6B00;
+}
+.link{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    row-gap: 14px;
+}
+.link > div{
+    background-color: #3A3B3C;
+
+    border-radius: 20px;
+    width: 92px;
+    height: 4px;
+}

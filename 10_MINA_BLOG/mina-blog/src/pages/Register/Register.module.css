@@ -1,0 +1,6 @@
+.register{
+    margin-top: 64px;
+}
+.register > p, h1{
+    text-align: center;
+}
