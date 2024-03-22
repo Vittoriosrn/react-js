@@ -14,23 +14,22 @@ export const useFetchDocument = (docCollection, id) => {
     const [cancelled, setCancelled] = useState(false)
 
     useEffect(() => {
+        setCancelled(false)
         async function loadDocument(){
             if(cancelled) return
 
             setLoading(true)
-
             try {
                 
                 const docRef = await doc(db, docCollection, id)
                 const docSnap = await getDoc(docRef)
-
                 setDocument(docSnap.data())
 
                 setLoading(false)
             } catch (error) {
                 console.log(error)
                 setError(error.message)
-                
+
                 setLoading(false)
             }
         }

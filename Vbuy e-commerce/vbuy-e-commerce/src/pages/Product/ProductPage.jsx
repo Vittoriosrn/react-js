@@ -4,6 +4,7 @@ import {useState} from 'react'
 
 import { useFetchDocument } from '../../hooks/useFetchDocument'
 import { useParams } from 'react-router-dom'
+import { useLocalStorage } from '../../hooks/useLocalStorage'
 
 //assets 
 import cartIcon from '../../assets/img/cartIcon.png'
@@ -12,9 +13,15 @@ const ProductPage = () => {
   const [mainImage, setMainImage] = useState()
   const {id} = useParams()
   const {document: product}  = useFetchDocument("products", id)
-  
+
   if (!product) {
     return null // garantir que post esteja definido
+  }
+
+  // adicionar ao carrinho
+  const addCart=() => {
+    const { setLocalStorage } = useLocalStorage()
+    setLocalStorage(id)
   }
 
   // Divide o corpo do post em linhas separadas
@@ -55,7 +62,7 @@ const ProductPage = () => {
           </div>
           <div className={style.buttonContainer}>
             <button className='btn'>COMPRAR</button>
-            <button className='alternativeBtn'>Adicionar ao carrinho<img src={cartIcon}/></button>
+            <button onClick={addCart()} className='alternativeBtn'>Adicionar ao carrinho<img src={cartIcon}/></button>
           </div>
         </section>
       </div>
