@@ -1,0 +1,84 @@
+.prodContainer{
+    margin: 64px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    max-width: 70%;
+}
+.prodContainer > div{
+    display: flex;
+    gap: 24px;
+}
+.prodImagesContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+.imageThumbnails{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.imageThumbnails > img{
+    width: 64px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.mainImage {
+    width: 500px;
+}
+.mainImage > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.buttonContainer{
+    display: flex;
+    gap: 18px;
+}
+.prodInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.priceInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.prodPrice{
+    font-size: 2.1em;
+    font-weight: 700;
+    color: #FF4500;
+}
+.prodContainer > div h2{
+    font-size: 2em;
+    max-width: 90%;
+}
+.paymentsOpt{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.moreOpt{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.oldPrice{
+    text-decoration: line-through;
+}
+.prodContainer > section{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+}
+.prodContainer > section h2{
+    font-size: 16px;
+}
+.prodContainer > section > div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

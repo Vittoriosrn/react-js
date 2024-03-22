@@ -1,0 +1,15 @@
+.bannerMarcas{
+    background-image: url('../../assets/img/bannerMarcas.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 522px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+.bannerMarcas img{
+    transform: translate(0, 64px);
+}

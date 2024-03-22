@@ -35,7 +35,7 @@ const CratePost = () => {
 
     // check todos os valores
     if(!title || !image || !tags || !body) {
-      setFormError("Por fazer, preencha todos os campos!")
+      setFormError("Por favor, preencha todos os campos!")
     }
 
     if (formError) return;

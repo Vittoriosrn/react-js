@@ -20,7 +20,7 @@ export const useAuthentication = () => {
 
     const auth = getAuth()
 
-    function checkIfIsCancelled(){
+    function checkIfIsCancelled(){ 
         if(cancelled){
             return
         }
@@ -34,7 +34,6 @@ export const useAuthentication = () => {
         setError(null)
 
         try {
-
             const {user} = await createUserWithEmailAndPassword(
                 auth,
                 data.email,

@@ -1,0 +1,7 @@
+.bannerImg{
+    width: 100vw;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
