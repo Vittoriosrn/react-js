@@ -1,0 +1,39 @@
+.imgProd{
+    width: 107px;
+}
+.prodInfo{
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.price{
+    font-weight: 600;
+    color: #FF4500;
+    font-size: 20px;
+}
+.titleProd{
+    font-weight: 600;
+    color: #232221;
+    font-size: 16px;
+}
+.select_q{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.select_q span{
+    cursor: pointer;
+    font-size: 20px;
+    color: #FF4500;
+}
+.namePrice{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.numberOfProducts{
+    width: 20px;
+    border: none;
+    color: #232221;
+}
